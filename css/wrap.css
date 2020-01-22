@@ -1,0 +1,72 @@
+@keyframes bounceInUp {
+    0%, 90%, 100% {
+        transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+    
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100px, 0);
+        transform: translate3d(0, 100px, 0);
+    }
+    60% {
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    }
+
+
+
+
+@keyframes fade-in {    
+    0% {opacity: 0;}/*初始状态 透明度为0*/    
+    40% {opacity: 0;}/*过渡状态 透明度为0*/    
+    100% {opacity: 1;}/*结束状态 透明度为1*/    
+}    
+@-webkit-keyframes fade-in {/*针对webkit内核*/    
+    0% {opacity: 0;}    
+    40% {opacity: 0;}    
+    100% {opacity: 1;}    
+}    
+#main-part {      
+    animation: fade-in;/*动画名称*/    
+    animation-duration: .5s;/*动画持续时间*/    
+    -webkit-animation:fade-in .5s;/*针对webkit内核*/
+	 transition: ease-in-out 0.5s;
+	 transition: ease infinite;
+}
+
+
+
+
+
+@keyframes bounceInUp {
+    0%, 90%, 100% {
+        transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+    
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100px, 0);
+        transform: translate3d(0, 100px, 0);
+    }
+    60% {
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    }
+    
+    #main {   
+        animation-name: bounceInUp;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: backwards;
+        animation-fill-mode: backwards;
+        transition: ease-in-out 0.5s;
+    }
+    
