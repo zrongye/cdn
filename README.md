@@ -11,8 +11,8 @@ https://cdn.jsdelivr.net/gh/你的用户名/你的仓库名@发布的版本号/�
 
 //加载js
 
-https://cdn.jsdelivr.net/gh/honjun/cdn@1.0/js/jquery.js
+https://cdn.jsdelivr.net/gh/zrongye/cdn@1.0/js/jquery.js
 
 //加载图片
 
-https://cdn.jsdelivr.net/gh/honjun/cdn@1.0/images/hb.png
+https://cdn.jsdelivr.net/gh/zrongye/cdn@1.0/images/hb.png
