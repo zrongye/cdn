@@ -1,4 +1,4 @@
-# cdn
+# blog cdn
 jsDeliver cdn
 
 通过jsDeliver引用资源
